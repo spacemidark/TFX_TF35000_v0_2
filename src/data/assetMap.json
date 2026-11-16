@@ -1,0 +1,11 @@
+{
+  "appIcon": "./images/app-icon.png",
+  "engineCutaway": "./images/engine-cutaway.webp",
+  "fanThumbnail": "./images/fan-thumbnail.webp",
+  "hpcThumbnail": "./images/hpc-thumbnail.webp",
+  "combustorThumbnail": "./images/combustor-thumbnail.webp",
+  "hpcAssembly": "./images/hpc-assembly.webp",
+  "statorVane": "./images/stator-vane.webp",
+  "aerodynamics": "./images/aerodynamics.webp",
+  "partsAssembly": "./images/parts-assembly.webp"
+}

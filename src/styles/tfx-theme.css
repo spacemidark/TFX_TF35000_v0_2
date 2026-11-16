@@ -1,0 +1,105 @@
+/* ===============================================================
+   TFX / TF35000 THEME
+   Modify these values to adjust the overall turquoise + black UI.
+   The original reference images are intentionally NOT recolored.
+   =============================================================== */
+:root{
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --mono: "Cascadia Code", Consolas, monospace;
+  --display: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --bg:#040b10;--panel:#091921;--soft:#102731;--line:#1a4753;
+  --muted:#88a9b5;--text:#e9f9fc;--aqua:#45dbe4;--warm:#7ee9ed;
+  color:#e9f9fc;background:#03090e;
+}
+body{background:#03090e}
+.app-shell{background:#03090e}
+.sidebar{background:linear-gradient(170deg,#03090e 0%,#06141b 48%,#02080d 100%);border-right:1px solid #19434f}
+.brand{padding-top:25px}
+.brand-app-icon{border-radius:10px;border:1px solid #21626d;box-shadow:0 0 22px #22bfc52b}
+.brand-name{font-size:20px;letter-spacing:1.5px;color:#e7fbfd}
+.brand-jet{font-size:17px;color:#54dfe7;letter-spacing:1.1px}
+.brand-period{color:#67f1f3}
+.brand-caption{color:#76b6c1}
+.sidebar-rule{border-color:#163944}
+.sidebar-bottom{background:#041117;border-color:#18404b}
+.sidebar-bottom strong{color:#b4e8ef}
+.main-area{background:radial-gradient(ellipse at 74% 0%,#10303b 0%,#06151e 29%,#040c12 70%,#02070b 100%)}
+.topbar{background:#06121ac9;border-bottom:1px solid #1c4550;backdrop-filter:blur(14px)}
+.topbar-left strong,.eyebrow,.dash-kicker{color:#5be1e8}
+.header-search{background:#081c26;border:1px solid #28535e}
+.header-search input{color:#ecfcff}
+.header-search input::placeholder{color:#739eaa}
+.nav-item.active,.nav-item.tree-item.active{background:linear-gradient(90deg,#0f3c4a,#0a2632);border-color:#236779;box-shadow:inset 3px 0 0 #4ad8e4}
+.nav-item:hover{background:#102d39}
+.lang-switch{background:#0b2630;border-color:#235463}
+.lang-switch button.on{background:#167e90;color:white}
+.hero-intro h1 .title-accent{color:#4be3ec}
+.hero-watermark{color:#0b2731}
+.hero-watermark span{color:#1b5663}
+.status-pill{background:#0e364066;border-color:#2a8794;color:#9de8eb}
+.status-light,.small-green-dot,.live-dot{background:#42dce2;box-shadow:0 0 10px #42dce280}
+.visual-panel,.overview-card,.child-card,.reading-card,.toc,.article-footer,.dashboard-panel,.dashboard-feature{border-color:#205360!important;background-color:#071923}
+.visual-top{background:#0a222b;border-color:#1c5360}
+.full-engine-stage{background:radial-gradient(ellipse at 50% 45%,#143642,#071923 75%)}
+.full-engine-stage svg{filter:none}
+.visual-stage{background:radial-gradient(ellipse at 50% 40%,#143440,#081923 75%)}
+.overview-card{background:linear-gradient(155deg,#0e2a36,#071923)}
+.metrics-grid .metric,.child-card{background:#0b2631;border-color:#245766}
+.child-card:hover{background:#124150;border-color:#42d6e0}
+.child-symbol,.child-arrow{color:#60e1e8}
+.toc-group-button.expanded{background:#103947;border-color:#267787;color:#e6fbff}
+.toc-subtopic.active{background:#124250;border-color:#287988}
+.reading-card,.article-footer{background:#081d27}
+.article-placeholder{background:#0c2b35;border-color:#266473}
+.article-placeholder code{color:#85e9ec}
+.drawer{background:#061923;border-color:#226273}
+.drawer-input{background:#0c303b;border-color:#286371}
+.footer{border-color:#1c4b56;color:#719ca7}
+.dashboard-intro h1{color:#f2feff}
+.dashboard-intro p{color:#9ac1cb}
+.dashboard-intro-badge{border-color:#247485;background:#0c303b;color:#7ee7ed}
+.dashboard-panel{background:linear-gradient(150deg,#09252f,#06151c);border-color:#1b5260!important;box-shadow:0 20px 42px #0004}
+.dashboard-panel-header h2{color:#e8fcff}
+.dashboard-panel-header h2 small{color:#95bac3}
+.dash-segments{background:#061d26;border-color:#235967}
+.dash-segments button{border-color:#235967;color:#a1c9d2}
+.dash-segments button:hover{background:#16434e}
+.dash-segments button.chosen{background:#12677a;color:#e8feff;box-shadow:inset 0 0 0 1px #36aabd}
+.atlas-stage{background:radial-gradient(ellipse at center,#0f303b,#040f16 80%);border-color:#1e5260}
+.atlas-stage::after{background:linear-gradient(0deg,#04161edc,transparent 24%,transparent 76%,#04161e2b)}
+.atlas-point{background:#092831e8;border-color:#3cc9d5;color:#f2feff}
+.atlas-point i{background:#44dce6}
+.atlas-point i::after{background:#7df5f6;box-shadow:0 0 8px #4ddfe6}
+.atlas-point:hover,.atlas-point-active{background:#115568;border-color:#6ae6ed;box-shadow:0 0 17px #19b8cb66}
+.atlas-label{color:#93c6d0}
+.atlas-systems button{background:#0b2a35;border-color:#2b6371;color:#e9fbff}
+.atlas-systems button:hover{background:#134453}
+.atlas-systems b{color:#5ee5ea}
+.atlas-thumb{background:#0b222c;border-color:#26535e;color:#c6e5ec}
+.atlas-thumb:hover,.atlas-thumb.selected{background:#134553;border-color:#46d5de}
+.atlas-footer-note{border-color:#1b4d5b;color:#90b9c5}
+.hpc-breadcrumb{color:#8abcc7}.hpc-breadcrumb span{color:#4cdae5}
+.hpc-highlight>h2{color:#effdff}.hpc-highlight>p{color:#a3c1cb}
+.hpc-picture{background:radial-gradient(circle at center,#153a46,#05141c);border-color:#245866}
+.hpc-picture span{background:#061b22d8;color:#9de3e8}
+.hpc-model .visual-panel{border-color:#2d6e7b!important}
+.hpc-part-list{background:#08232c}
+.hpc-part-list button{background:#0e3340;border-color:#2b6572;color:#d9f5f7}
+.hpc-part-list button span,.hpc-part-list button b{color:#65e4eb}
+.hpc-key-features{color:#a1c7ce}
+.dash-primary{background:linear-gradient(110deg,#0e778b,#0c5266);border-color:#3cb8c9;color:#f5ffff}
+.dash-primary:hover{background:#178ca1}
+.dashboard-feature{background:linear-gradient(145deg,#0c2c37,#061820);border-color:#205a68!important}
+.dashboard-feature h3{color:#f0fdff}.dashboard-feature p{color:#a2c4ce}
+.dashboard-feature button{background:#0b4a5a;border-color:#2bb5c5;color:#d7faff}
+.dashboard-feature button:hover{background:#176c7d}
+.dashboard-disclaimer{color:#8bb5bf}
+.tf35000-notice{background:linear-gradient(90deg,#0b303b,#08232c);border-bottom:1px solid #236575;padding:13px 20px;font-size:11px;line-height:1.6;color:#a7dce3}
+::selection{background:#197e91;color:#fff}
+
+/* TF35000 editable overview panel */
+.dashboard-root-overview{height:345px;overflow-y:auto;padding:23px 27px;background:linear-gradient(145deg,#0a2833,#061720);border-top:1px solid #215866;color:#c6e8ee}
+.dashboard-root-overview h1{font-size:24px;margin:0 0 12px;color:#eafcff}
+.dashboard-root-overview h2{font-size:16px;color:#67e0e8}
+.dashboard-root-overview p{line-height:1.7}
+@media(max-width:550px){.dashboard-root-overview{height:255px;padding:16px}.dash-segments button{padding:8px 7px;font-size:9px}}
